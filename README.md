@@ -125,3 +125,29 @@ reviewer,
 
 For additional information reviewing the actual code, refer to this [code
 review documentation](https://google.github.io/eng-practices/review/reviewer/).
+
+## Documentation
+Here are the guidelines for documentation at Spruce:
+
+- Documentation is just as important as code. We work on open source software
+  projects, and for many, the documentation _is_ the user interface. Bad
+  documentation means a bad product, and bad products have no business at
+  Spruce.
+- When you make code changes, ensure that the documentation is up to date. Even
+  better if the documentation is **testable**. This may mean that the
+  documentation is derived from code files or vice versa, such as in [literate
+  programming](http://www.literateprogramming.com/knuthweb.pdf). This means
+  that we should prefer documentation to be tested in our continuous
+  integration processes where possible.
+- A report of incorrect documentation should be taken as seriously as a bug in
+  the codebase. This is the same as breaking a key promise to our users.
+- Prefer "zero-to-hero" approaches to documentation, in which we assume users
+  start with a bare minimum setup without any developer tooling. Imagine a
+  fresh operating system install and either drop hints or explicitly detail how
+  a user should configure their environment from a clean slate. It is
+  acceptable to refer to popular setups, but these should be aligned with the
+  developer user base for our products.
+- Multi-operating system support should be the default assumption, and
+  explicitly state if you assume a specific base operating systems for your
+  documentation, such as Debian 10, Ubuntu 20.04 LTS, RHEL 8, FreeBSD 12.2,
+  Windows 10, or MacOS 10.14.
