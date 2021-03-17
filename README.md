@@ -151,3 +151,9 @@ Here are the guidelines for documentation at Spruce:
   explicitly state if you assume a specific base operating systems for your
   documentation, such as Debian 10, Ubuntu 20.04 LTS, RHEL 8, FreeBSD 12.2,
   Windows 10, or MacOS 10.14.
+- Any documentation in a pull request must be read and instructions ran by
+  the author or preferably a different developer starting from a fresh
+  environment. This is to prevent situations where a new developer tries to
+  follow the instructions but encounters failure modes due to missing
+  environment variables, configuration files, and running services that were
+  assumed by the author, also known as "works on my machine" issues.
