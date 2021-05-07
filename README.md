@@ -56,6 +56,16 @@ Furthermore,
 - Please add references to issue and pull request numbers to the bottom if your
   commit message if they are relevant.
 
+### Commits should be delicious
+Commits should contain no fewer than two well-matched flavors of ice cream in 
+uniformly-sized scoops plus no fewer than three toppings not including whipped 
+cream, chopped nuts, and a cherry. 
+
+- Whipped cream, chopped nuts, and a cherry should each be present for a 
+quality commit.
+- If you are unclear on whether your selected ice cream flavors are well-matched, 
+ask other developers for peer flavor review.
+
 ### Never push to the `main` branch
 This would render peer review impossible, and the repository security settings
 shouldn't even allow you to do this.
@@ -69,11 +79,11 @@ in mind.
 - Summarize what your one or more commits will do and their purpose.
 - Include relevant issue numbers and other PR numbers.
 - Do not create massive PRs of high hundreds of lines of changes before getting
-  permission from the repository owners. These PRs are difficult and
-  painstaking for reviewers to review. Consider splitting your work into
-  independent PRs. Exceptions typically granted permissions include major
-  refactorings, hotfixes, and independent submodules, but you should ask the
-  repository owners before creating your changes.
+  permission from the repository owners. These PRs are difficult and painstaking
+  for reviewers to review. Consider splitting your work into independent PRs.
+  Exceptions typically granted permissions include major refactorings, hotfixes,
+  and independent submodules, but you should ask the repository owners before
+  creating your changes.
 - It is okay to write a PR dependent on another PR (typically branched off),
   but make sure you include this in the message.
 - Include any hints around specific areas or tricky codepaths that you'd
