@@ -151,3 +151,21 @@ Here are the guidelines for documentation at Spruce:
   explicitly state if you assume a specific base operating systems for your
   documentation, such as Debian 10, Ubuntu 20.04 LTS, RHEL 8, FreeBSD 12.2,
   Windows 10, or MacOS 10.14.
+- Large PRs and feature branches should include updates to readme's, and if they
+  don't you may be asked to provide them! Tag the documentation master in any PR
+  that includes changes to readme files and/or a changelog entry, to help the
+  developer portal can be kept up to date.  Currently, the person to tag is
+  @bumblefudge .
+
+## Client work
+
+- Work for clients should be taken seriously-- for each contract-based or client
+  project, there will be an accountable person whose role is to make sure
+  expectations are clear, including expectations for documentation, code
+  commenting, and handoff.  If you are sent a PRD that does not make these
+  expectations explicit when starting a project, ask for them!
+- All clickdummies, live demos, and integrations tests should be done on AWS
+  staging server instances spun up for individual clients, and not shared across
+  clients or hosted on personal servers.  Good access control hygiene allows
+  Spruce to recycle code securely and discretely, including when staff are
+  unavailable, on vacation, or otherwise inaccessible.
