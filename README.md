@@ -18,7 +18,7 @@ and [Actions](https://docs.github.com/en/actions).
 
 ### Working in branches
 All work should be completed in separate branches that are short, descriptive,
-dash-separated, and prefixed with `feat/` (for features), `bug/`, or `hotfix/`.
+dash-separated, and prefixed with `feat/` (for features), `bug/`, `fix/`, or `hotfix/`.
 
 Examples of good branch names:
 ```
