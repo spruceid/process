@@ -134,11 +134,7 @@ Here are the guidelines for documentation at Spruce:
   documentation means a bad product, and bad products have no business at
   Spruce.
 - When you make code changes, ensure that the documentation is up to date. Even
-  better if the documentation is **testable**. This may mean that the
-  documentation is derived from code files or vice versa, such as in [literate
-  programming](http://www.literateprogramming.com/knuthweb.pdf). This means
-  that we should prefer documentation to be tested in our continuous
-  integration processes where possible.
+  better if the documentation is **testable**.
 - A report of incorrect documentation should be taken as seriously as a bug in
   the codebase. This is the same as breaking a key promise to our users.
 - Prefer "zero-to-hero" approaches to documentation, in which we assume users
